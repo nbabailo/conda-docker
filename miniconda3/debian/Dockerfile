@@ -14,3 +14,4 @@ RUN apt-get -qq update && apt-get -qq -y install curl bzip2 \
     && conda clean --all --yes
 
 ENV PATH /opt/conda/bin:$PATH
+EXPOSE 8888
